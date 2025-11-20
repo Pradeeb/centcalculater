@@ -28,6 +28,7 @@ function calculateArea() {
     let cent = sqft * 2.47;
      console.log(cent);
 
+    document.getElementById('ares').innerText = cent*0.404;
     document.getElementById('cent').innerText = cent.toFixed(4) + " cent";
 
     document.getElementById('result').style.display = 'block';
